@@ -413,7 +413,7 @@ body::after {
   padding: 16px 20px
 }
 .menu__nav-button.button-transparent--border {
-  padding: 14px 8px
+  padding: 16px 8px
 }
 .menu__lang {
   position: relative;
@@ -1636,7 +1636,7 @@ body::after {
   }
   .spollers__title {
     border-radius: 10px 10px 0 0;
-    padding: 20px 40px 20px 20px;
+    padding: 20px 45px 20px 20px;
     font-size: 1.125rem
   }
   ._spoller-init .spollers__title::after,
