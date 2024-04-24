@@ -666,7 +666,7 @@ body::after {
   gap: 20px
 }
 .save-time__card {
-  background: #d0efe7;
+  background: #ededed;
   position: relative;
   border-radius: 20px
 }
@@ -701,7 +701,8 @@ body::after {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover
+  object-fit: cover;
+  border-radius: 20px
 }
 .save-time__card-3 {
   display: flex;
@@ -737,6 +738,68 @@ body::after {
   border-top: 7px solid #000;
   border-right: 7px solid #000;
   border-left: 7px solid #000
+}
+.save-time__card-4 {
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.save-time__card-4 .save-time__card-title {
+  margin-bottom: 1rem;
+  max-width: unset
+}
+.save-time__card-4 .save-time__card-text {
+  max-width: 300px
+}
+.save-time__card-4 img {
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 20px;
+  -o-object-position: 50% 80%;
+  object-position: 50% 80%
+}
+.save-time__card-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.save-time__card-5 .save-time__card-title {
+  margin-bottom: .75rem
+}
+.save-time__card-5 .save-time__card-text {
+  max-width: 200px
+}
+.save-time__card-5 img {
+  right: 0
+}
+.save-time__card-6 {
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.save-time__card-6 .save-time__card-title {
+  margin-bottom: 1.25rem;
+  max-width: unset
+}
+.save-time__card-6 .save-time__card-text {
+  max-width: 200px
+}
+.save-time__card-6 img {
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 20px;
+  -o-object-position: 50% 30%;
+  object-position: 50% 30%
 }
 .save-time__card-title {
   position: relative;
@@ -1270,6 +1333,27 @@ body::after {
   .save-time__card-3 {
     padding-top: 4.125rem
   }
+  .save-time__card-4 {
+    padding-left: 2.125rem
+  }
+  .save-time__card-4 {
+    padding-top: 2.875rem
+  }
+  .save-time__card-5 {
+    padding-left: 2.125rem
+  }
+  .save-time__card-5 {
+    padding-top: 2.75rem
+  }
+  .save-time__card-5 img {
+    width: 12.875rem
+  }
+  .save-time__card-6 {
+    padding-left: 2.125rem
+  }
+  .save-time__card-6 {
+    padding-top: 2.875rem
+  }
   .features__grid-text {
     font-size: 3.375rem
   }
@@ -1456,6 +1540,39 @@ body::after {
     border-left: 5px solid #000;
     left: 70%
   }
+  .save-time__card-4 {
+    padding-left: 1.25rem
+  }
+  .save-time__card-4 {
+    padding-top: 1.25rem
+  }
+  .save-time__card-4 {
+    padding: 20px;
+    justify-content: flex-end
+  }
+  .save-time__card-5 {
+    padding-left: 1.25rem
+  }
+  .save-time__card-5 {
+    padding-top: 1.25rem
+  }
+  .save-time__card-5 {
+    padding: 20px;
+    justify-content: flex-end
+  }
+  .save-time__card-5 img {
+    width: 8.125rem
+  }
+  .save-time__card-6 {
+    padding-left: 1.25rem
+  }
+  .save-time__card-6 {
+    padding-top: 1.25rem
+  }
+  .save-time__card-6 {
+    padding: 20px;
+    justify-content: flex-end
+  }
   .features__grid {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr)
@@ -1545,6 +1662,9 @@ body::after {
   }
   .save-time__card-1 img {
     width: 12rem
+  }
+  .save-time__card-5 img {
+    width: 6rem
   }
 }
 @media (max-width:48.06125em) {
@@ -1792,6 +1912,17 @@ body::after {
     text-align: left;
     margin-bottom: .625rem
   }
+  .save-time__card-4 .save-time__card-title {
+    max-width: 120px;
+    margin-bottom: .75rem
+  }
+  .save-time__card-4 .save-time__card-text {
+    max-width: 250px
+  }
+  .save-time__card-6 .save-time__card-title {
+    max-width: 120px;
+    margin-bottom: .75rem
+  }
   .save-time__card-title {
     margin-bottom: .625rem;
     max-width: 140px
@@ -1974,6 +2105,9 @@ body::after {
   .hero__stores img {
     width: 100%;
     height: unset
+  }
+  .save-time__card-5 {
+    overflow: hidden
   }
 }
 @media (max-width:23.4375em) {
@@ -2285,6 +2419,9 @@ body::after {
   .save-time__card-1 img {
     width: 20.625rem
   }
+  .save-time__card-5 img {
+    width: 11.875rem
+  }
 }
 @media (max-width:61.99875em) and (min-width:23.4375em) and (max-width:61.99875em) {
   @supports (right:clamp(-7.375rem ,-14.5166415443rem + 30.4710039223vw ,4.375rem)) {
@@ -2305,6 +2442,16 @@ body::after {
   @supports not (width:clamp(12rem ,6.7577312068rem + 22.3670135175vw ,20.625rem)) {
     .save-time__card-1 img {
       width: calc(12rem + 8.625 * (100vw - 23.4375rem)/ 38.56125)
+    }
+  }
+  @supports (width:clamp(6rem ,2.4291792279rem + 15.2355019612vw ,11.875rem)) {
+    .save-time__card-5 img {
+      width: clamp(6rem ,2.4291792279rem + 15.2355019612vw ,11.875rem)
+    }
+  }
+  @supports not (width:clamp(6rem ,2.4291792279rem + 15.2355019612vw ,11.875rem)) {
+    .save-time__card-5 img {
+      width: calc(6rem + 5.875 * (100vw - 23.4375rem)/ 38.56125)
     }
   }
 }
@@ -2377,6 +2524,76 @@ body::after {
   @supports not (padding-top:clamp(2.5rem ,-2.4142354125rem + 7.9263459545vw ,4.125rem)) {
     .save-time__card-3 {
       padding-top: calc(2.5rem + 1.625 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (padding-left:clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)) {
+    .save-time__card-4 {
+      padding-left: clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)
+    }
+  }
+  @supports not (padding-left:clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)) {
+    .save-time__card-4 {
+      padding-left: calc(1.25rem + .875 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (padding-top:clamp(1.25rem ,-3.6642354125rem + 7.9263459545vw ,2.875rem)) {
+    .save-time__card-4 {
+      padding-top: clamp(1.25rem ,-3.6642354125rem + 7.9263459545vw ,2.875rem)
+    }
+  }
+  @supports not (padding-top:clamp(1.25rem ,-3.6642354125rem + 7.9263459545vw ,2.875rem)) {
+    .save-time__card-4 {
+      padding-top: calc(1.25rem + 1.625 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (padding-left:clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)) {
+    .save-time__card-5 {
+      padding-left: clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)
+    }
+  }
+  @supports not (padding-left:clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)) {
+    .save-time__card-5 {
+      padding-left: calc(1.25rem + .875 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (padding-top:clamp(1.25rem ,-3.2862173038rem + 7.3166270349vw ,2.75rem)) {
+    .save-time__card-5 {
+      padding-top: clamp(1.25rem ,-3.2862173038rem + 7.3166270349vw ,2.75rem)
+    }
+  }
+  @supports not (padding-top:clamp(1.25rem ,-3.2862173038rem + 7.3166270349vw ,2.75rem)) {
+    .save-time__card-5 {
+      padding-top: calc(1.25rem + 1.5 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (width:clamp(8.125rem ,-6.2396881288rem + 23.169318944vw ,12.875rem)) {
+    .save-time__card-5 img {
+      width: clamp(8.125rem ,-6.2396881288rem + 23.169318944vw ,12.875rem)
+    }
+  }
+  @supports not (width:clamp(8.125rem ,-6.2396881288rem + 23.169318944vw ,12.875rem)) {
+    .save-time__card-5 img {
+      width: calc(8.125rem + 4.75 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (padding-left:clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)) {
+    .save-time__card-6 {
+      padding-left: clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)
+    }
+  }
+  @supports not (padding-left:clamp(1.25rem ,-1.3961267606rem + 4.268032437vw ,2.125rem)) {
+    .save-time__card-6 {
+      padding-left: calc(1.25rem + .875 * (100vw - 61.99875rem)/ 20.50125)
+    }
+  }
+  @supports (padding-top:clamp(1.25rem ,-3.6642354125rem + 7.9263459545vw ,2.875rem)) {
+    .save-time__card-6 {
+      padding-top: clamp(1.25rem ,-3.6642354125rem + 7.9263459545vw ,2.875rem)
+    }
+  }
+  @supports not (padding-top:clamp(1.25rem ,-3.6642354125rem + 7.9263459545vw ,2.875rem)) {
+    .save-time__card-6 {
+      padding-top: calc(1.25rem + 1.625 * (100vw - 61.99875rem)/ 20.50125)
     }
   }
   @supports (width:clamp(17.5rem ,-5.5591046278rem + 37.1928540943vw ,25.125rem)) {
